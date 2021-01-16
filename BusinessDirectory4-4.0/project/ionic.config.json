@@ -1,0 +1,7 @@
+{
+  "name": "bussines-directory-ionic4",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

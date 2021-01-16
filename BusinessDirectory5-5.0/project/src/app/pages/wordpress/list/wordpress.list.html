@@ -1,0 +1,20 @@
+<ion-header>
+    <ion-toolbar color="primary">
+        <ion-buttons slot="start">
+            <ion-back-button defaultHref="/home"></ion-back-button>
+        </ion-buttons>
+        <ion-title>
+            WP posts
+        </ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-card class="ion-margin-vertical" *ngFor="let post of posts" [routerLink]="post.id" >
+        <img *ngIf="!!post.image" src="{{post.image}}" />
+        <ion-card-content>
+            <h2 class="card-title">{{post.title}}</h2>
+            <p>{{post.brief | trimHtml | truncate : 140}}</p>
+        </ion-card-content>
+    </ion-card>
+</ion-content>

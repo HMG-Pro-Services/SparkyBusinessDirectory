@@ -1,0 +1,13 @@
+{
+  "name": "Business Directory 2",
+  "short_name": "BusDir 2",
+  "start_url": "index.html",
+  "display": "standalone",
+  "icons": [{
+    "src": "assets/img/appicon.png",
+    "sizes": "512x512",
+    "type": "image/png"
+  }],
+  "background_color": "#387ef5",
+  "theme_color": "#387ef5"
+}

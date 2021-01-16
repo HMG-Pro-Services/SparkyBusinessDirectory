@@ -1,0 +1,47 @@
+<ion-header>
+    <ion-toolbar color="primary">
+        <ion-buttons slot="start">
+            <ion-back-button defaultHref="/home"></ion-back-button>
+        </ion-buttons>
+        <ion-title>{{business.title}}</ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <div class="contact-description ion-padding">
+        <h1>{{business.title}}</h1>
+        <p>{{business.description}}</p>
+    </div>
+
+    <ion-list>
+        <ion-list-header><ion-label>Open hours</ion-label></ion-list-header>
+
+        <ion-item *ngFor="let day of days">
+            <div class="ion-align-items-center">
+                <ion-label>{{day.name}}</ion-label>
+                <ion-note>{{day.times.join(' | ')}}</ion-note>
+            </div>
+        </ion-item>
+    </ion-list>
+
+    <ion-list>
+        <ion-list-header><ion-label>Contact</ion-label></ion-list-header>
+
+        <ion-item button detail="false" (click)="call(business.phoneNumber)">
+            <ion-label>Call us</ion-label>
+            <ion-icon name="call" slot="end"></ion-icon>
+        </ion-item>
+        <ion-item button detail="false" (click)="sendEmail(business.email)">
+            <ion-label>Send us email</ion-label>
+            <ion-icon name="mail" slot="end"></ion-icon>
+        </ion-item>
+        <ion-item button detail="false" (click)="getDirections(business.officeLocation)">
+            <ion-label>Find us / Get directions</ion-label>
+            <ion-icon name="map" slot="end"></ion-icon>
+        </ion-item>
+        <ion-item button detail="false" (click)="openUrl(business.facebookPage)">
+            <ion-label>Facebook</ion-label>
+            <ion-icon name="logo-facebook" slot="end"></ion-icon>
+        </ion-item>
+    </ion-list>
+</ion-content>

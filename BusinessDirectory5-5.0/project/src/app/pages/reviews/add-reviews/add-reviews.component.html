@@ -1,0 +1,34 @@
+<ion-header>
+    <ion-toolbar color="primary">
+        <ion-title>Add review</ion-title>
+
+        <ion-buttons slot="end">
+            <ion-button (click)="dismiss()">
+                Cancel
+            </ion-button>
+        </ion-buttons>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+    <ion-list>
+        <ion-item class="ion-no-padding">
+            <ion-label position="floating">Name</ion-label>
+            <ion-input type="text" [(ngModel)]="review.author"></ion-input>
+        </ion-item>
+
+        <ion-item class="ion-no-padding">
+            <ion-label position="floating">Comment</ion-label>
+            <ion-textarea rows="6" type="text" [(ngModel)]="review.comment"></ion-textarea>
+        </ion-item>
+    </ion-list>
+
+    <ion-row class="ion-align-items-center">
+        <ion-label>Rating</ion-label>
+        <ion-rating [(ngModel)]="review.rate"></ion-rating>
+    </ion-row>
+
+    <ion-button class="item-button" color="primary" expand="block" (click)="addReview()">
+        Add
+    </ion-button>
+</ion-content>

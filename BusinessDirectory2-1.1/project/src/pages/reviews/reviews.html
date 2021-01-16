@@ -1,0 +1,27 @@
+<ion-header>
+	<ion-navbar>
+		<button ion-button menuToggle>
+			<ion-icon name="menu"></ion-icon>
+		</button>
+		<ion-title>Reviews</ion-title>
+
+		<ion-buttons end>
+			<button class="clear-filter" ion-button icon-only (click)="addReview()">
+				<ion-icon name=add></ion-icon>
+			</button>
+		</ion-buttons>
+	</ion-navbar>
+</ion-header>
+
+<ion-content>
+	<ion-list>
+		<ion-item *ngFor="let review of reviews | orderBy : ['-date']">
+			{{review.author}}
+			<p>{{review.comment}}</p>
+			<ion-note item-end class="review-date">{{review.date | date}}</ion-note>
+
+			<rating [ngModel]="review.rate" readOnly="true"></rating>
+
+		</ion-item>
+	</ion-list>
+</ion-content>

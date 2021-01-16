@@ -1,0 +1,14 @@
+<ion-header>
+	<ion-navbar>
+		<ion-title>Drupal post</ion-title>
+	</ion-navbar>
+</ion-header>
+
+<ion-content>
+	<img *ngIf="!!post.image" src="{{post.image}}"/>
+	<div padding>
+		<h2 class="card-title">{{post.title}}</h2>
+		<div [innerHTML]="post.content"></div>
+		<p><i>[{{post.tags}}]</i></p>
+	</div>
+</ion-content>

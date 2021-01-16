@@ -1,0 +1,21 @@
+<ion-header>
+    <ion-toolbar color="primary">
+        <ion-buttons slot="start">
+            <ion-menu-button></ion-menu-button>
+        </ion-buttons>
+        <ion-title>Map</ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <agm-map [latitude]="map.origin.latitude" [longitude]="map.origin.longitude" [zoom]="map.zoom" *ngIf="map">
+        <agm-marker *ngFor="let marker of map.markers" [latitude]="marker.lat" [longitude]="marker.lng">
+
+            <agm-snazzy-info-window [maxWidth]="200" [closeWhenOthersOpen]="true">
+                <ng-template>
+                    {{marker.name}}<br><a (click)="showBusinessDetails(marker.business)">Details</a>
+                </ng-template>
+            </agm-snazzy-info-window>
+        </agm-marker>
+    </agm-map>
+</ion-content>

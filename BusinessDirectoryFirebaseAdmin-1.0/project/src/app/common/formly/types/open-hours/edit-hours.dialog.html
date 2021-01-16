@@ -1,0 +1,24 @@
+<h1 mat-dialog-title>{{to.label || 'Edit hours'}}</h1>
+<form [formGroup]="form" mat-dialog-content>
+	<div class="form-group">
+		<label for="day">Day</label>
+		<mat-select id="day" formControlName="day" class="form-control" [multiple]="false">
+			<mat-option *ngFor="let day of weekdays; let i = index" [value]="(i + 1)">{{day}}</mat-option>
+		</mat-select>
+	</div>
+
+	<div class="form-group">
+		<label for="openAt">Open at</label>
+		<ngb-timepicker id="openAt" formControlName="openAt"></ngb-timepicker>
+	</div>
+
+	<div class="form-group">
+		<label for="closeAt">Close at</label>
+		<ngb-timepicker id="closeAt" formControlName="closeAt"></ngb-timepicker>
+	</div>
+</form>
+
+<div mat-dialog-actions>
+	<button mat-button (click)="cancel()">CANCEL</button>
+	<button mat-raised-button (click)="ok(form.value)" color="primary" [disabled]="!form.valid">OK</button>
+</div>

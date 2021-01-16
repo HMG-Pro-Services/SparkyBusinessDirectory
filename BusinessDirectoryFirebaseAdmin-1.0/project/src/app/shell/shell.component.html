@@ -1,0 +1,57 @@
+<top-bar [sidenav]="sidenav"></top-bar>
+<mat-sidenav-container>
+
+	<mat-sidenav #sidenav [mode]="mode" [opened]="opened" class="app-sidenav">
+
+		<mat-nav-list>
+			<!-- <h3 mat-subheader>Menu</h3> -->
+
+			<a mat-list-item [routerLink]=" ['./'] " routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+				<mat-icon mat-list-icon>home</mat-icon>
+				<span mat-line>Home</span>
+			</a>
+
+			<a mat-list-item [routerLink]=" ['./manager/products']" routerLinkActive="active">
+				<mat-icon mat-list-icon>shopping_cart</mat-icon>
+				<span mat-line>Products</span>
+			</a>
+
+			<a mat-list-item [routerLink]=" ['./manager/categories']" routerLinkActive="active">
+				<mat-icon mat-list-icon>category</mat-icon>
+				<span mat-line>Categories</span>
+			</a>
+
+			<a mat-list-item [routerLink]=" ['./manager/businesses']" routerLinkActive="active">
+				<mat-icon mat-list-icon>business</mat-icon>
+				<span mat-line>Businesses</span>
+			</a>
+
+			<a mat-list-item [routerLink]=" ['./manager/catalogs']" routerLinkActive="active">
+				<mat-icon mat-list-icon>list</mat-icon>
+				<span mat-line>Catalogs</span>
+			</a>
+
+			<a mat-list-item [routerLink]=" ['./manager/news']" routerLinkActive="active">
+				<mat-icon mat-list-icon>message</mat-icon>
+				<span mat-line>News</span>
+			</a>
+
+			<a mat-list-item [routerLink]=" ['./manager/services']" routerLinkActive="active">
+				<mat-icon mat-list-icon>room_service</mat-icon>
+				<span mat-line>Services</span>
+			</a>
+
+		</mat-nav-list>
+
+	</mat-sidenav>
+
+
+	<div class="app-content">
+		<router-outlet></router-outlet>
+	</div>
+
+</mat-sidenav-container>
+
+<!--<span class="app-action">-->
+<!--<button mat-fab><mat-icon>add circle</mat-icon></button>-->
+<!--</span>-->

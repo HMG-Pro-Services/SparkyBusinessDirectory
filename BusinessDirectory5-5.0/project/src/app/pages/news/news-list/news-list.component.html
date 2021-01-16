@@ -1,0 +1,24 @@
+<ion-header>
+    <ion-toolbar color="primary">
+        <ion-buttons slot="start">
+            <ion-back-button defaultHref="/home"></ion-back-button>
+        </ion-buttons>
+        <ion-title>News</ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-list>
+        <ion-item button detail="false" class="ion-text-wrap" *ngFor="let post of posts" (click)="itemTapped(post)">
+            <ion-thumbnail slot="start">
+                <img [src]="post.thumb[0].url">
+            </ion-thumbnail>
+            <div class="item-description ">
+                <ion-label>{{post.title}}</ion-label>
+                <ion-note>
+                    {{post.body | truncate: 140}}
+                </ion-note>
+            </div>
+        </ion-item>
+    </ion-list>
+</ion-content>

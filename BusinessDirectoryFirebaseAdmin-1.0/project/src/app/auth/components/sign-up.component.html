@@ -1,0 +1,44 @@
+<div class="as-login-screen">
+
+	<div class="app-branding">
+		<h1>{{appName}}</h1>
+		<!-- <h2>{{appSubtitle}}</h2> -->
+		<p>{{appSlogan}}</p>
+	</div>
+
+	<div class="as-form-wrapper" fxLayout="column" fxLayoutAlign="center center">
+		<mat-card>
+
+			<mat-card-title>Sign up</mat-card-title>
+
+			<div fxLayout="column">
+
+				<form [formGroup]="signupForm" #f="ngForm" (ngSubmit)="signUp()" fxLayout="column" fxFlexFill fxLayoutGap="10px">
+					<div class="empty-row"></div>
+					<mat-form-field>
+						<input matInput formControlName="email" type="email" placeholder="Email">
+					</mat-form-field>
+
+					<mat-form-field>
+						<input matInput formControlName="password" type="password" placeholder="Password">
+					</mat-form-field>
+
+					<button mat-raised-button color="primary" type="submit" aria-label="signup">Sign up</button>
+				</form>
+
+				<div [hidden]="error == ''">
+					<p class="wfw-warn">{{ error }}</p>
+				</div>
+
+				<mat-divider></mat-divider>
+
+				<div fxLayout="column" fxLayoutAlign="center" nxLayoutGap="10px" class="footer">
+					<button mat-button color="primary" (click)="signInWithGoogle()">Sign up with Google</button>
+					<a mat-button [routerLink]="['/sign-in']">Already have an account?</a>
+				</div>
+			</div>
+		</mat-card>
+
+	</div>
+
+</div>

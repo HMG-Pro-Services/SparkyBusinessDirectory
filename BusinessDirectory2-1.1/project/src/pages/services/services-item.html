@@ -1,0 +1,29 @@
+<ion-header>
+	<ion-navbar>
+		<ion-title>Service</ion-title>
+
+		<ion-buttons end>
+			<button ion-button icon-only (click)="open()">
+				<ion-icon name=link></ion-icon>
+			</button>
+		</ion-buttons>
+	</ion-navbar>
+</ion-header>
+
+<ion-content>
+	<div>
+		<ion-slides pager>
+			<ion-slide *ngFor="let picture of service.pictures">
+				<img [src]="picture.url">
+			</ion-slide>
+		</ion-slides>
+	</div>
+	<div padding>
+		<h2>{{service.title}}</h2>
+		<p>{{service.body}}</p>
+	</div>
+
+	<div padding-horizontal>
+		<button ion-button icon-left="" color="primary" block (click)="open()"><ion-icon name="link"></ion-icon> Read more</button>
+	</div>
+</ion-content>

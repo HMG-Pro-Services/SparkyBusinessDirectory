@@ -1,0 +1,88 @@
+@import "vars";
+
+body {
+	background-color: #fafafa;
+}
+/*
+ * Formly Bootstrap overrides
+ */
+.form-group {
+	margin-bottom: 2rem;
+}
+/*
+ * /Formly Bootstrap overrides
+ **/
+.padding {
+	padding: $padding;
+}
+
+.spacer {
+	flex: 1 1 auto;
+}
+
+/*
+ * SCG Login Screens
+ *  Login / Sign up / Forgot
+ */
+// .sg-login-screen {
+// 	.app-branding {
+// 		text-align: center;
+// 		margin-top: calc(5vw);
+// 		padding-bottom: 40px;
+// 		box-shadow: rgba(28, 56, 72, 0.1) 0 2px 2px, rgba(28, 56, 72, 0.1) 0 4px 4px, rgba(28, 56, 72, 0.1) 0 8px 8px, rgba(28, 56, 72, 0.1) 0 16px 16px, rgba(28, 56, 72, 0.1) 0 32px 32px, rgba(28, 56, 72, 0.1) 0 64px 64px;
+//
+// 		h1 {
+// 			font-size: calc(3em + 3vw);
+// 			color: #00A5E4;
+// 			font-weight: 300;
+// 			text-shadow: rgba(28, 56, 72, 0.1) 0 2px 2px, rgba(28, 56, 72, 0.1) 0 4px 4px, rgba(28, 56, 72, 0.1) 0 8px 8px, rgba(28, 56, 72, 0.1) 0 16px 16px, rgba(28, 56, 72, 0.1) 0 32px 32px, rgba(28, 56, 72, 0.1) 0 64px 64px;
+// 		}
+//
+// 		h2 {
+// 			font-size: calc(2em + 1vw);
+// 			color: #424242;
+// 			text-shadow: rgba(28, 56, 72, 0.1) 0 2px 2px, rgba(28, 56, 72, 0.1) 0 4px 4px, rgba(28, 56, 72, 0.1) 0 8px 8px, rgba(28, 56, 72, 0.1) 0 16px 16px, rgba(28, 56, 72, 0.1) 0 32px 32px, rgba(28, 56, 72, 0.1) 0 64px 64px;
+// 			margin-bottom: 20px;
+// 		}
+//
+// 		p {
+// 			font-size: calc(0.8em + 0.4vw);
+// 		}
+// 	}
+//
+// 	.sg {
+// 		margin-top: 90px;
+// 	}
+//
+// 	mat-card {
+// 		width: 300px;
+// 	}
+// }
+
+.as-login-screen {
+
+	.app-branding {
+		text-align: center;
+		margin-top: calc(5vw);
+		padding-bottom: 5px;
+
+		h1 {
+			font-size: calc(1.8em + 1.5vw);
+			color: #424242;
+			font-weight: 300;
+		}
+
+		p {
+			font-size: calc(0.6em + 0.3vw);
+			color: rgba(41, 43, 44, 0.74)
+		}
+	}
+
+	.as-form-wrapper {
+		margin-top: 20px;
+	}
+
+	mat-card {
+		width: 360px;
+	}
+}

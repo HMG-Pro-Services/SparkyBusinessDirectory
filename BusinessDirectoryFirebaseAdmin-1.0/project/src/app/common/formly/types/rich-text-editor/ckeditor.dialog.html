@@ -1,0 +1,9 @@
+<h1 mat-dialog-title>{{to.label || 'Rich editor'}}</h1>
+<div mat-dialog-content>
+	<ckeditor [(ngModel)]="text" debounce="500" [config]="to.config"></ckeditor>
+</div>
+
+<div mat-dialog-actions>
+	<button mat-button (click)="cancel()">CANCEL</button>
+	<button mat-raised-button (click)="ok()" color="primary">OK</button>
+</div>

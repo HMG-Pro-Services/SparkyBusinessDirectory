@@ -1,0 +1,49 @@
+<ion-header>
+	<ion-navbar no-border-bottom>
+		<button ion-button menuToggle>
+			<ion-icon name="menu"></ion-icon>
+		</button>
+
+		<ion-title>Directory</ion-title>
+
+		<ion-buttons end>
+			<button class="clear-filter" ion-button icon-only (click)="clearFilter()" [hidden]="!isFilterDirty">
+				<ion-icon name="close"></ion-icon>
+			</button>
+			<button ion-button icon-only (click)="presentFilter()">
+				<ion-icon ios="ios-options-outline" md="md-options"></ion-icon>
+			</button>
+		</ion-buttons>
+	</ion-navbar>
+
+	<ion-toolbar no-border-top>
+		<ion-searchbar color="primary" [(ngModel)]="queryText" (ionInput)="updateList()" placeholder="Search"></ion-searchbar>
+	</ion-toolbar>
+</ion-header>
+
+<ion-content>
+	<ion-scroll scrollX="true" scrollY="false" zoom="true" class="horizontal-list">
+		<button ion-button class="filter-item" color="light"
+			*ngFor="let category of categories"
+			[ngClass]="{ 'active-filter' : selectedCategory === category.$key }"
+			(click)="selectCategory(category)">
+			{{category.title}}
+		</button>
+	</ion-scroll>
+	<ion-list [hidden]="businesses.length === 0">
+		<ion-item (click)="goToBusinessDetail(business)" *ngFor="let business of businesses" text-wrap>
+			<ion-thumbnail item-start>
+				<img [src]="business.logo[0].url">
+			</ion-thumbnail>
+			<p class="distance">{{business.distance | distance}}</p>
+			<h2 padding-top>{{business.title}}</h2>
+			<h3>{{business.categoryName}}</h3>
+			<p>{{business.description | truncate: 130}}</p>
+		</ion-item>
+	</ion-list>
+
+	<ion-list-header [hidden]="businesses.length > 0">
+		No businesses found
+	</ion-list-header>
+
+</ion-content>

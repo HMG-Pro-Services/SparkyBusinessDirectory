@@ -1,0 +1,105 @@
+@import "../vars";
+
+:host {
+	// display: block;
+	// position: relative;
+	// height: 100%;
+	.select-view {
+		padding: 0;
+	}
+
+	::ng-deep {
+		.mat-button-toggle-appearance-standard .mat-button-toggle-label-content {
+			height: 36px;
+			line-height: 36px;
+			padding-left: 5px;
+			padding-right: 5px;
+		}
+	}
+}
+
+
+mat-toolbar button.toolbar-button {
+	padding: 0px 16px;
+	flex-shrink: 0;
+}
+
+.cards-container {
+	display: flex;
+	flex-wrap: wrap;
+	margin: auto;
+	width: 960px;
+
+	mat-card {
+		height: 200px;
+		width: 296px;
+		margin: 12px;
+	}
+
+	.mat-card-header .mat-card-title,
+	mat-card-title {
+		font-size: 18px;
+		text-transform: capitalize;
+}
+
+
+	mat-card-actions {
+		bottom: 25px;
+		position: absolute;
+	}
+
+	::ng-deep .mat-card-header-text {
+		margin: 0 !important;
+	}
+}
+
+.search {
+	font-size: 14px;
+	margin-left: 20px;
+	margin-right: 20px;
+	flex-shrink: 1;
+}
+
+.items-type {
+	flex-shrink: 0;
+}
+
+.table-container {
+
+	width: 960px;
+	margin: auto;
+
+	padding: 10px;
+	table {
+		padding: $padding;
+		width: 100%;
+	}
+	.action-controls {
+		width: 110px;
+		td {
+			padding: 0;
+		}
+	}
+	.position {
+		width: 100px;
+	}
+}
+
+@media only screen and (max-width: 983px) and (min-width: 664px) {
+	.cards-container,
+	.table-container {
+		width: 640px;
+	}
+}
+
+@media only screen and (max-width: 663px) {
+	.cards-container,
+	.table-container {
+		width: 100%;
+	}
+
+	mat-card {
+		width: 100%;
+	}
+
+}

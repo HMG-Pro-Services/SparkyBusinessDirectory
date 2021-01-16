@@ -1,0 +1,1222 @@
+{
+  "businesses" : {
+    "0fd87af0-80f7-45ed-9f97-0f84966fef38" : {
+      "category" : "-KLYHKBftksPjoSHOEQ_",
+      "description" : "Home Craft's is more than a leading retailer of home decor and gifts. At Kirkland's, our unique products create the backdrop for memorable life events, like a family dinner, a child's first birthday, a 20th wedding anniversary, or just a cozy evening indoors.",
+      "drupal" : "https://demo.titaniumtemplates.com/drupal/rest/views/rest_api",
+      "email" : "sdfg@sdaf.df",
+      "facebookPage" : "https://www.facebook.com/ionicframework",
+      "logo" : [ {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder-thumb.png"
+      } ],
+      "mapdata" : {
+        "annotations" : [ {
+          "latitude" : 37.80304935144217,
+          "longitude" : -122.41652012225438,
+          "title" : "one store"
+        }, {
+          "latitude" : 37.79159125588844,
+          "longitude" : -122.41719471850843,
+          "title" : "Ullamcorper eros."
+        } ]
+      },
+      "officeLocation" : {
+        "annotation" : [ {
+          "latitude" : 37.8164026,
+          "longitude" : -121.421164,
+          "title" : "HQ"
+        } ]
+      },
+      "openhours" : {
+        "days" : [ {
+          "closeAt" : {
+            "epoch" : 1544551258048,
+            "hour" : 20,
+            "minute" : 0,
+            "second" : 0
+          },
+          "day" : 1,
+          "openAt" : {
+            "epoch" : 1544511649364,
+            "hour" : 9,
+            "minute" : 0,
+            "second" : 0
+          }
+        }, {
+          "closeAt" : {
+            "epoch" : 1544217224330,
+            "hour" : 23,
+            "minute" : 13,
+            "second" : 0
+          },
+          "day" : 2,
+          "openAt" : {
+            "epoch" : 1544148764330,
+            "hour" : 4,
+            "minute" : 12,
+            "second" : 0
+          }
+        }, {
+          "closeAt" : {
+            "epoch" : 1544547650776,
+            "hour" : 19,
+            "minute" : 0,
+            "second" : 0
+          },
+          "day" : 4,
+          "openAt" : {
+            "epoch" : 1544511649861,
+            "hour" : 9,
+            "minute" : 0,
+            "second" : 0
+          }
+        } ],
+        "zone" : 0
+      },
+      "phoneNumber" : "66969669",
+      "pictures" : [ {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder.png"
+      } ],
+      "title" : "Home Craft",
+      "wordpress" : "https://demo.titaniumtemplates.com/wordpress/?json=1"
+    },
+    "160b085a-4d2d-4d81-ac7c-791e0117220e" : {
+      "category" : "-KFoWA2ujTJ8Zb8JbaoZ",
+      "description" : "At Diagnostics Laboratories, our values are the core of who we are and what we believe in.  They inspire us to be our best every day and in everything we do in order to provide individuals, healthcare professionals and clients with the timely and accurate information they need to make informed decisions and improve patient outcomes.",
+      "drupal" : "https://demo.titaniumtemplates.com/drupal/rest/views/rest_api",
+      "email" : "sdaf@as.fg",
+      "facebookPage" : "https://www.facebook.com/ionicframework",
+      "logo" : [ {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder-thumb.png"
+      } ],
+      "mapdata" : {
+        "annotations" : [ {
+          "latitude" : 37.794599662400294,
+          "longitude" : -122.39502573333073,
+          "title" : "one store"
+        }, {
+          "latitude" : 37.80436676009754,
+          "longitude" : -122.40256531738282,
+          "title" : "Ullamcorper eros."
+        } ]
+      },
+      "officeLocation" : {
+        "annotation" : [ {
+          "latitude" : 37.78921346087976,
+          "longitude" : -122.40833006403199,
+          "title" : "HQ"
+        } ]
+      },
+      "openhours" : {
+        "days" : [ {
+          "closeAt" : {
+            "epoch" : 1544551258048,
+            "hour" : 20,
+            "minute" : 0,
+            "second" : 0
+          },
+          "day" : 1,
+          "openAt" : {
+            "epoch" : 1544511649364,
+            "hour" : 9,
+            "minute" : 0,
+            "second" : 0
+          }
+        }, {
+          "closeAt" : {
+            "epoch" : 1544217224330,
+            "hour" : 23,
+            "minute" : 13,
+            "second" : 0
+          },
+          "day" : 2,
+          "openAt" : {
+            "epoch" : 1544148764330,
+            "hour" : 4,
+            "minute" : 12,
+            "second" : 0
+          }
+        }, {
+          "closeAt" : {
+            "epoch" : 1544547650776,
+            "hour" : 19,
+            "minute" : 0,
+            "second" : 0
+          },
+          "day" : 4,
+          "openAt" : {
+            "epoch" : 1544511649861,
+            "hour" : 9,
+            "minute" : 0,
+            "second" : 0
+          }
+        } ],
+        "zone" : 0
+      },
+      "phoneNumber" : "+398764123456",
+      "pictures" : [ {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder.png"
+      } ],
+      "title" : "Diagnostics Laboratories",
+      "wordpress" : "https://demo.titaniumtemplates.com/wordpress/?json=1"
+    },
+    "25fe2418-b261-43b2-a776-b794890d44c8" : {
+      "category" : "-KFmR066qUtvVv9IaBrq",
+      "description" : "Two projectors run simultaneously to provide the perfect image with a balance of warmth and sharpness. IMAX draws you into something as close to reality as you have ever experienced. The combination of our perfectly tuned integrated sound system and our precise speaker orientation ensures you can hear a pin drop and be able to tell exactly where it landed.",
+      "drupal" : "https://demo.titaniumtemplates.com/drupal/rest/views/rest_api",
+      "email" : "sdaf@as.fg",
+      "facebookPage" : "https://www.facebook.com/ionicframework",
+      "logo" : [ {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder-thumb.png"
+      } ],
+      "mapdata" : {
+        "annotations" : [ {
+          "latitude" : 37.807855539298394,
+          "longitude" : -122.41904903422096,
+          "title" : "one store"
+        }, {
+          "latitude" : 37.80789341409179,
+          "longitude" : -122.41439366973162,
+          "title" : "Ullamcorper eros."
+        } ]
+      },
+      "officeLocation" : {
+        "annotation" : [ {
+          "latitude" : 37.78933216232403,
+          "longitude" : -122.40571222803345,
+          "title" : "HQ"
+        } ]
+      },
+      "openhours" : {
+        "days" : [ {
+          "closeAt" : {
+            "epoch" : 1544551258048,
+            "hour" : 20,
+            "minute" : 0,
+            "second" : 0
+          },
+          "day" : 1,
+          "openAt" : {
+            "epoch" : 1544511649364,
+            "hour" : 9,
+            "minute" : 0,
+            "second" : 0
+          }
+        }, {
+          "closeAt" : {
+            "epoch" : 1544217224330,
+            "hour" : 23,
+            "minute" : 13,
+            "second" : 0
+          },
+          "day" : 2,
+          "openAt" : {
+            "epoch" : 1544148764330,
+            "hour" : 4,
+            "minute" : 12,
+            "second" : 0
+          }
+        }, {
+          "closeAt" : {
+            "epoch" : 1544547650776,
+            "hour" : 19,
+            "minute" : 0,
+            "second" : 0
+          },
+          "day" : 4,
+          "openAt" : {
+            "epoch" : 1544511649861,
+            "hour" : 9,
+            "minute" : 0,
+            "second" : 0
+          }
+        } ],
+        "zone" : 0
+      },
+      "phoneNumber" : "+398764123456",
+      "pictures" : [ {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder.png"
+      }, {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/assets/business-06-02.png"
+      } ],
+      "title" : "IMAX",
+      "wordpress" : "https://demo.titaniumtemplates.com/wordpress/?json=1"
+    },
+    "5fa3c8f3-6299-436e-9756-7f935d6c96ba" : {
+      "category" : "-KFmR066qUtvVv9IaBrq",
+      "description" : "When you join us, you can sit back and relax knowing you'll enjoy a one-of-a-kind movie experience. From crystal-clear, all digital projections to custom-built sound systems and stunning 3D, our theatres will immerse you in the movies!",
+      "drupal" : "https://demo.titaniumtemplates.com/drupal/rest/views/rest_api",
+      "email" : "sdaf@as.fg",
+      "facebookPage" : "https://www.facebook.com/ionicframework",
+      "logo" : [ {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder-thumb.png"
+      } ],
+      "mapdata" : {
+        "annotations" : [ {
+          "latitude" : 37.801247732319666,
+          "longitude" : -122.42037491540526,
+          "title" : "one store"
+        }, {
+          "latitude" : 37.79544847830752,
+          "longitude" : -122.40574105285646,
+          "title" : "Ullamcorper eros."
+        } ]
+      },
+      "officeLocation" : {
+        "annotation" : [ {
+          "latitude" : 37.789823923418886,
+          "longitude" : -122.40544400713196,
+          "title" : "HQ"
+        } ]
+      },
+      "openhours" : {
+        "days" : [ {
+          "closeAt" : {
+            "epoch" : 1544551258048,
+            "hour" : 20,
+            "minute" : 0,
+            "second" : 0
+          },
+          "day" : 1,
+          "openAt" : {
+            "epoch" : 1544511649364,
+            "hour" : 9,
+            "minute" : 0,
+            "second" : 0
+          }
+        }, {
+          "closeAt" : {
+            "epoch" : 1544217224330,
+            "hour" : 23,
+            "minute" : 13,
+            "second" : 0
+          },
+          "day" : 2,
+          "openAt" : {
+            "epoch" : 1544148764330,
+            "hour" : 4,
+            "minute" : 12,
+            "second" : 0
+          }
+        }, {
+          "closeAt" : {
+            "epoch" : 1544547650776,
+            "hour" : 19,
+            "minute" : 0,
+            "second" : 0
+          },
+          "day" : 4,
+          "openAt" : {
+            "epoch" : 1544511649861,
+            "hour" : 9,
+            "minute" : 0,
+            "second" : 0
+          }
+        } ],
+        "zone" : 0
+      },
+      "phoneNumber" : "+398764123456",
+      "pictures" : [ {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder.png"
+      } ],
+      "title" : "Edwards Theatres",
+      "wordpress" : "https://demo.titaniumtemplates.com/wordpress/?json=1"
+    },
+    "6dddcf61-383c-47cd-a313-8f5a454d28a2" : {
+      "category" : "-KHKN0MiysoAodCMlYW_",
+      "description" : "In japanese, our name means ‘naughty child’, or ‘one who is wishful and determined’. A good example of that determination is the art of ‘kaizen’, meaning ‘good change’. This philosophy sits right at our heart. It shapes every dish we create, and pushes us to find better ways in all that we do. We’re restless spirits, forever creating and making things better. We’ve been practising kaizen since 1992, when we opened our first doors in london’s bloomsbury.",
+      "drupal" : "https://demo.titaniumtemplates.com/drupal/rest/views/rest_api",
+      "email" : "sdaf@as.fg",
+      "facebookPage" : "https://www.facebook.com/ionicframework",
+      "logo" : [ {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder-thumb.png"
+      } ],
+      "mapdata" : {
+        "annotations" : [ {
+          "latitude" : 37.795889884167046,
+          "longitude" : -122.41479592065429,
+          "title" : "one store"
+        }, {
+          "latitude" : 37.79127720131535,
+          "longitude" : -122.41059048675538,
+          "title" : "Ullamcorper eros."
+        } ]
+      },
+      "officeLocation" : {
+        "annotation" : [ {
+          "latitude" : 37.7889591,
+          "longitude" : -122.4068924,
+          "title" : "HQ"
+        } ]
+      },
+      "openhours" : {
+        "days" : [ {
+          "closeAt" : {
+            "epoch" : 1544551258048,
+            "hour" : 20,
+            "minute" : 0,
+            "second" : 0
+          },
+          "day" : 1,
+          "openAt" : {
+            "epoch" : 1544511649364,
+            "hour" : 9,
+            "minute" : 0,
+            "second" : 0
+          }
+        }, {
+          "closeAt" : {
+            "epoch" : 1544217224330,
+            "hour" : 23,
+            "minute" : 13,
+            "second" : 0
+          },
+          "day" : 2,
+          "openAt" : {
+            "epoch" : 1544148764330,
+            "hour" : 4,
+            "minute" : 12,
+            "second" : 0
+          }
+        }, {
+          "closeAt" : {
+            "epoch" : 1544547650776,
+            "hour" : 19,
+            "minute" : 0,
+            "second" : 0
+          },
+          "day" : 4,
+          "openAt" : {
+            "epoch" : 1544511649861,
+            "hour" : 9,
+            "minute" : 0,
+            "second" : 0
+          }
+        } ],
+        "zone" : 0
+      },
+      "phoneNumber" : "+398764123456",
+      "pictures" : [ {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder.png"
+      } ],
+      "title" : "Wagamama",
+      "wordpress" : "https://demo.titaniumtemplates.com/wordpress/?json=1"
+    },
+    "74d812c1-f5cb-4d5d-9095-51f96e491754" : {
+      "category" : "-KFoWA2ujTJ8Zb8JbaoZ",
+      "description" : "Genesis Fertility Centre is the first Canadian clinic to voluntarily undergo independent verification of success rates by IVF Reports and Fertility Authority, recognized leaders in IVF standards and patient advocacy.",
+      "drupal" : "https://demo.titaniumtemplates.com/drupal/rest/views/rest_api",
+      "email" : "sdaf@as.fg",
+      "facebookPage" : "https://www.facebook.com/ionicframework",
+      "logo" : [ {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder-thumb.png"
+      } ],
+      "mapdata" : {
+        "annotations" : [ {
+          "latitude" : 37.80273972211843,
+          "longitude" : -122.42183403710936,
+          "title" : "one store"
+        }, {
+          "latitude" : 37.80368860159229,
+          "longitude" : -122.41063340209962,
+          "title" : "Ullamcorper eros."
+        } ]
+      },
+      "officeLocation" : {
+        "annotation" : [ {
+          "latitude" : 37.80767772138546,
+          "longitude" : -122.41332970163575,
+          "title" : "HQ"
+        } ]
+      },
+      "openhours" : {
+        "days" : [ {
+          "closeAt" : {
+            "epoch" : 1544551258048,
+            "hour" : 20,
+            "minute" : 0,
+            "second" : 0
+          },
+          "day" : 1,
+          "openAt" : {
+            "epoch" : 1544511649364,
+            "hour" : 9,
+            "minute" : 0,
+            "second" : 0
+          }
+        }, {
+          "closeAt" : {
+            "epoch" : 1544217224330,
+            "hour" : 23,
+            "minute" : 13,
+            "second" : 0
+          },
+          "day" : 2,
+          "openAt" : {
+            "epoch" : 1544148764330,
+            "hour" : 4,
+            "minute" : 12,
+            "second" : 0
+          }
+        }, {
+          "closeAt" : {
+            "epoch" : 1544547650776,
+            "hour" : 19,
+            "minute" : 0,
+            "second" : 0
+          },
+          "day" : 4,
+          "openAt" : {
+            "epoch" : 1544511649861,
+            "hour" : 9,
+            "minute" : 0,
+            "second" : 0
+          }
+        } ],
+        "zone" : 0
+      },
+      "phoneNumber" : "+398764123456",
+      "pictures" : [ {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder.png"
+      } ],
+      "title" : "Genesis Fertility Centre",
+      "wordpress" : "https://demo.titaniumtemplates.com/wordpress/?json=1"
+    },
+    "98472667-a72a-4b10-a28f-62c569f7bb7e" : {
+      "category" : "-KFoWA2ujTJ8Zb8JbaoZ",
+      "description" : "Cleveland Clinic – a global nonprofit academic medical centre has provided world class patient care to people from around the world since 1921. As the Canadian location of the Cleveland Clinic, we help our patients’ live healthier more active lives in a state-of-the-art outpatient clinic in downtown Toronto.",
+      "drupal" : "https://demo.titaniumtemplates.com/drupal/rest/views/rest_api",
+      "email" : "sdaf@as.fg",
+      "facebookPage" : "https://www.facebook.com/ionicframework",
+      "logo" : [ {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder-thumb.png"
+      } ],
+      "mapdata" : {
+        "annotations" : [ {
+          "latitude" : 37.79724633815878,
+          "longitude" : -122.40870194177245,
+          "title" : "one store"
+        }, {
+          "latitude" : 37.788789362568714,
+          "longitude" : -122.41155624389648,
+          "title" : "Ullamcorper eros."
+        } ]
+      },
+      "officeLocation" : {
+        "annotation" : [ {
+          "latitude" : 37.7889591,
+          "longitude" : -122.4068924,
+          "title" : "HQ"
+        } ]
+      },
+      "openhours" : {
+        "days" : [ {
+          "closeAt" : {
+            "epoch" : 1544551258048,
+            "hour" : 20,
+            "minute" : 0,
+            "second" : 0
+          },
+          "day" : 1,
+          "openAt" : {
+            "epoch" : 1544511649364,
+            "hour" : 9,
+            "minute" : 0,
+            "second" : 0
+          }
+        }, {
+          "closeAt" : {
+            "epoch" : 1544217224330,
+            "hour" : 23,
+            "minute" : 13,
+            "second" : 0
+          },
+          "day" : 2,
+          "openAt" : {
+            "epoch" : 1544148764330,
+            "hour" : 4,
+            "minute" : 12,
+            "second" : 0
+          }
+        }, {
+          "closeAt" : {
+            "epoch" : 1544547650776,
+            "hour" : 19,
+            "minute" : 0,
+            "second" : 0
+          },
+          "day" : 4,
+          "openAt" : {
+            "epoch" : 1544511649861,
+            "hour" : 9,
+            "minute" : 0,
+            "second" : 0
+          }
+        } ],
+        "zone" : 0
+      },
+      "phoneNumber" : "+398764123456",
+      "pictures" : [ {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder.png"
+      } ],
+      "title" : "Cleveland Clinic",
+      "wordpress" : "https://demo.titaniumtemplates.com/wordpress/?json=1"
+    },
+    "deb0c47a-e608-47c3-83db-e4f9d463c880" : {
+      "category" : "-KFmRyJu07Y6dVlVbdh9",
+      "description" : "Celebrating the best of Bristol's brewing scene, we've got 8 hand pulls and 10 keg lines serving a huge range of craft beers from Bristol and around the UK. Only 5 minutes walk from Temple Meads Station and Old Market, we are the best pub around by a mile! A cosy pub, great beer garden and top notch pub food, you'll wish we were at the end of your road.",
+      "drupal" : "https://demo.titaniumtemplates.com/drupal/rest/views/rest_api",
+      "email" : "sdaf@as.fg",
+      "facebookPage" : "https://www.facebook.com/ionicframework",
+      "logo" : [ {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder-thumb.png"
+      } ],
+      "mapdata" : {
+        "annotations" : [ {
+          "latitude" : 37.796229,
+          "longitude" : -122.412221,
+          "title" : "one store"
+        }, {
+          "latitude" : 37.793312,
+          "longitude" : -122.412865,
+          "title" : "Ullamcorper eros."
+        } ]
+      },
+      "officeLocation" : {
+        "annotation" : [ {
+          "latitude" : 37.7889591,
+          "longitude" : -122.4068924,
+          "title" : "HQ"
+        } ]
+      },
+      "openhours" : {
+        "days" : [ {
+          "closeAt" : {
+            "epoch" : 1544551258048,
+            "hour" : 20,
+            "minute" : 0,
+            "second" : 0
+          },
+          "day" : 1,
+          "openAt" : {
+            "epoch" : 1544511649364,
+            "hour" : 9,
+            "minute" : 0,
+            "second" : 0
+          }
+        }, {
+          "closeAt" : {
+            "epoch" : 1544217224330,
+            "hour" : 23,
+            "minute" : 13,
+            "second" : 0
+          },
+          "day" : 2,
+          "openAt" : {
+            "epoch" : 1544148764330,
+            "hour" : 4,
+            "minute" : 12,
+            "second" : 0
+          }
+        }, {
+          "closeAt" : {
+            "epoch" : 1544547650776,
+            "hour" : 19,
+            "minute" : 0,
+            "second" : 0
+          },
+          "day" : 4,
+          "openAt" : {
+            "epoch" : 1544511649861,
+            "hour" : 9,
+            "minute" : 0,
+            "second" : 0
+          }
+        } ],
+        "zone" : 0
+      },
+      "phoneNumber" : "+398764123456",
+      "pictures" : [ {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder.png"
+      } ],
+      "title" : "Barley Mow",
+      "wordpress" : "https://demo.titaniumtemplates.com/wordpress/?json=1"
+    }
+  },
+  "catalogs" : {
+    "0a357536-6f37-4d8e-99af-b976da6f4fdb" : {
+      "body" : "Te eu dolore ullamcorper nulla aliquip, vero dignissim facilisis lorem diam, te ullamcorper esse tation. Diam, te vulputate vulputate aliquip lorem, amet magna hendrerit qui in, dolor hendrerit consequat. \n\nVero ad, vero nulla facilisi minim eu, molestie ea sit dolor zzril, facilisis autem. Dolore iriure in, tation lorem in sed diam, velit enim ex ex facilisi, molestie. \n\nNostrud praesent laoreet ut, tation elit commodo dolore odio, esse et diam accumsan dolor, ut nostrud dolore blandit vero, quis zzril dolor blandit quis, molestie vero esse amet. Et, euismod ut ut hendrerit ipsum, eum.",
+      "business" : "74d812c1-f5cb-4d5d-9095-51f96e491754",
+      "pictures" : [ {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder.png"
+      }, {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder.png"
+      }, {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder.png"
+      }, {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder.png"
+      }, {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder.png"
+      }, {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder.png"
+      } ],
+      "thumb" : [ {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder.png"
+      } ],
+      "title" : "DOLORE DOLOR",
+      "url" : "https://issuu.com/besthomesmagazine/docs/bhm002_issuu"
+    },
+    "0c5fb99b-4643-4559-97a1-0465d610269e" : {
+      "body" : "Ut vulputate te dolor ipsum nonummy, dolore enim accumsan veniam duis, nibh veniam at nulla. Adipiscing, dolore dolor lobortis et qui, consequat ea tation iusto qui, tation velit minim. \n\nDelenit elit, feugait nibh illum diam vulputate, feugiat erat et velit veniam, tation ea. Consequat magna et, iriure delenit zzril vel ea, eum amet ut autem consequat, tincidunt. \n\nAliquam adipiscing vero dolore, magna ut vel et veniam, iriure odio ullamcorper erat vulputate, facilisi dolore hendrerit in accumsan, accumsan illum iriure quis nibh, nisl vulputate nostrud enim. Commodo, lorem luptatum erat ut elit, blandit dolor eu adipiscing ipsum, dolor.",
+      "business" : "deb0c47a-e608-47c3-83db-e4f9d463c880",
+      "pdf" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/assets/pdf/catalog-1.pdf",
+      "pictures" : [ {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder.png"
+      }, {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder.png"
+      }, {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder.png"
+      }, {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder.png"
+      }, {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder.png"
+      }, {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/assets/_release/assets/placeholder.png"
+      } ],
+      "thumb" : [ {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder-thumb.png"
+      } ],
+      "title" : "WISI CONSEQUAT",
+      "url" : "https://issuu.com/mortonhouston/docs/digital_catalogue_28ab5dc0261b6a"
+    },
+    "19f9d1ca-509a-409c-8b26-0fbc2d0f9647" : {
+      "body" : "Te eu dolore ullamcorper nulla aliquip, vero dignissim facilisis lorem diam, te ullamcorper esse tation. Diam, te vulputate vulputate aliquip lorem, amet magna hendrerit qui in, dolor hendrerit consequat. \n\nVero ad, vero nulla facilisi minim eu, molestie ea sit dolor zzril, facilisis autem. Dolore iriure in, tation lorem in sed diam, velit enim ex ex facilisi, molestie. \n\nNostrud praesent laoreet ut, tation elit commodo dolore odio, esse et diam accumsan dolor, ut nostrud dolore blandit vero, quis zzril dolor blandit quis, molestie vero esse amet. Et, euismod ut ut hendrerit ipsum, eum.",
+      "business" : "0fd87af0-80f7-45ed-9f97-0f84966fef38",
+      "pictures" : [ {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder.png"
+      }, {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder.png"
+      }, {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder.png"
+      }, {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder.png"
+      }, {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder.png"
+      }, {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder.png"
+      } ],
+      "thumb" : [ {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder-thumb.png"
+      } ],
+      "title" : "DOLORE DOLOR",
+      "url" : "https://issuu.com/besthomesmagazine/docs/bhm002_issuu"
+    },
+    "238e755f-c775-4039-b281-8e8049a7c2c7" : {
+      "body" : "Ut vulputate te dolor ipsum nonummy, dolore enim accumsan veniam duis, nibh veniam at nulla. Adipiscing, dolore dolor lobortis et qui, consequat ea tation iusto qui, tation velit minim. \n\nDelenit elit, feugait nibh illum diam vulputate, feugiat erat et velit veniam, tation ea. Consequat magna et, iriure delenit zzril vel ea, eum amet ut autem consequat, tincidunt. \n\nAliquam adipiscing vero dolore, magna ut vel et veniam, iriure odio ullamcorper erat vulputate, facilisi dolore hendrerit in accumsan, accumsan illum iriure quis nibh, nisl vulputate nostrud enim. Commodo, lorem luptatum erat ut elit, blandit dolor eu adipiscing ipsum, dolor.",
+      "business" : "0fd87af0-80f7-45ed-9f97-0f84966fef38",
+      "pdf" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/assets/pdf/catalog-1.pdf",
+      "pictures" : [ {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder.png"
+      }, {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder.png"
+      }, {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder.png"
+      }, {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder.png"
+      }, {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder.png"
+      }, {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/assets/_release/assets/placeholder.png"
+      } ],
+      "thumb" : [ {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder-thumb.png"
+      } ],
+      "title" : "WISI CONSEQUAT",
+      "url" : "https://issuu.com/mortonhouston/docs/digital_catalogue_28ab5dc0261b6a"
+    },
+    "28fadfe9-656d-4ff7-a719-0ac8711ef089" : {
+      "body" : "Te eu dolore ullamcorper nulla aliquip, vero dignissim facilisis lorem diam, te ullamcorper esse tation. Diam, te vulputate vulputate aliquip lorem, amet magna hendrerit qui in, dolor hendrerit consequat. \n\nVero ad, vero nulla facilisi minim eu, molestie ea sit dolor zzril, facilisis autem. Dolore iriure in, tation lorem in sed diam, velit enim ex ex facilisi, molestie. \n\nNostrud praesent laoreet ut, tation elit commodo dolore odio, esse et diam accumsan dolor, ut nostrud dolore blandit vero, quis zzril dolor blandit quis, molestie vero esse amet. Et, euismod ut ut hendrerit ipsum, eum.",
+      "business" : "74d812c1-f5cb-4d5d-9095-51f96e491754",
+      "pictures" : [ {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder.png"
+      }, {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder.png"
+      }, {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder.png"
+      }, {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder.png"
+      }, {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder.png"
+      }, {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/assets/_release/assets/placeholder.png"
+      } ],
+      "thumb" : [ {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder-thumb.png"
+      } ],
+      "title" : "DIGNISSIM",
+      "url" : "https://issuu.com/spyroslangkos/docs/linkedin-sophguide-020314-pdf-eng"
+    },
+    "297d0a27-5dbc-4fee-a8d9-ab720ebaf050" : {
+      "body" : "In iusto et ullamcorper dolore dolor, duis dolor feugiat dignissim ad, qui illum facilisi tation. Velit, wisi ullamcorper tation dignissim dolore, luptatum sit delenit vero lobortis, duis vel erat. \n\nVeniam consectetuer, nulla magna eum feugait eu, eros accumsan vel augue accumsan, nulla dignissim. Dolore facilisi nulla, ullamcorper magna duis hendrerit feugait, dolor luptatum sed ut quis, ex. \n\nZzril tincidunt sit at, facilisi nostrud at diam ea, aliquip consequat luptatum veniam facilisi, zzril wisi duis lobortis iriure, sed vel accumsan consequat.",
+      "business" : "74d812c1-f5cb-4d5d-9095-51f96e491754",
+      "pictures" : [ {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder.png"
+      }, {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder.png"
+      }, {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder.png"
+      }, {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder.png"
+      }, {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder.png"
+      }, {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/assets/_release/assets/placeholder.png"
+      } ],
+      "thumb" : [ {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder-thumb.png"
+      } ],
+      "title" : "DOLOR NIBH",
+      "url" : "https://issuu.com/zire9/docs/webuser_-_may_20__2015"
+    }
+  },
+  "categories" : {
+    "-KFmR066qUtvVv9IaBrq" : {
+      "title" : "Movie Theatres"
+    },
+    "-KFmRyJu07Y6dVlVbdh9" : {
+      "title" : "Drink"
+    },
+    "-KFoWA2ujTJ8Zb8JbaoZ" : {
+      "title" : "Healthcare"
+    },
+    "-KHKN0MiysoAodCMlYW_" : {
+      "title" : "Food"
+    },
+    "-KLYHKBftksPjoSHOEQ_" : {
+      "title" : "Shop"
+    }
+  },
+  "common" : {
+    "map" : {
+      "origin" : {
+        "latitude" : 37.798297,
+        "longitude" : -122.417951
+      },
+      "zoomLevel" : 14
+    }
+  },
+  "news" : {
+    "08a41bbd-d993-4515-a9e3-71e25d2e60cd" : {
+      "body" : "Te eu dolore ullamcorper nulla aliquip, vero dignissim facilisis lorem diam, te ullamcorper esse tation. Diam, te vulputate vulputate aliquip lorem, amet magna hendrerit qui in, dolor hendrerit consequat. \n\nVero ad, vero nulla facilisi minim eu, molestie ea sit dolor zzril, facilisis autem. Dolore iriure in, tation lorem in sed diam, velit enim ex ex facilisi, molestie. \n\nNostrud praesent laoreet ut, tation elit commodo dolore odio, esse et diam accumsan dolor, ut nostrud dolore blandit vero, quis zzril dolor blandit quis, molestie vero esse amet. Et, euismod ut ut hendrerit ipsum, eum.",
+      "business" : "5fa3c8f3-6299-436e-9756-7f935d6c96ba",
+      "picture" : [ {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder.png"
+      } ],
+      "thumb" : [ {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder-thumb.png"
+      } ],
+      "title" : "DIGNISSIM UT COMMODO WISI."
+    },
+    "10adccc4-e203-40d0-b9c6-dcc74cd8361e" : {
+      "body" : "Erat consequat blandit enim lobortis erat, eu vel sit elit diam, consequat nibh nibh adipiscing. Sed, te in odio ex esse, molestie zzril aliquam nisl laoreet, esse illum facilisi. \n\nTe lorem, consequat ad facilisis erat elit, et dolore nostrud sit aliquip, consequat nisl. Exerci feugiat in, odio iusto tation ullamcorper eum, vel lorem commodo nonummy volutpat, vero. \n\nVero vel feugiat commodo, euismod nonummy et suscipit sit, consequat ex illum consequat dignissim, esse feugiat tation eu laoreet, dolor te laoreet volutpat feugait, ut elit.",
+      "business" : "98472667-a72a-4b10-a28f-62c569f7bb7e",
+      "picture" : [ {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder.png"
+      } ],
+      "thumb" : [ {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder-thumb.png"
+      } ],
+      "title" : "UT CONSECTETUER NISL VELIT."
+    },
+    "114f8db9-a68f-4d8e-8973-50622936a322" : {
+      "body" : "Nostrud et vel nulla praesent luptatum, ea zzril dolore zzril autem, nostrud illum hendrerit te. In, tation iusto autem diam illum, nulla iriure in nostrud veniam, te nonummy odio. \n\nVulputate dolor, qui vero ullamcorper facilisis ut, aliquam lorem luptatum laoreet illum, vulputate eum. Amet hendrerit feugait, amet in tincidunt nulla vulputate, ullamcorper ea volutpat illum dolore, erat. \n\nAmet nostrud te in, illum praesent feugait delenit eros, tincidunt tation qui vel luptatum, elit eu.",
+      "business" : "25fe2418-b261-43b2-a776-b794890d44c8",
+      "picture" : [ {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder.png"
+      } ],
+      "thumb" : [ {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder-thumb.png"
+      } ],
+      "title" : "DOLORE MAGNA FACILISIS AMET."
+    },
+    "1a7f559e-8edb-451f-a9f9-6661254049dc" : {
+      "body" : "In iusto et ullamcorper dolore dolor, duis dolor feugiat dignissim ad, qui illum facilisi tation. Velit, wisi ullamcorper tation dignissim dolore, luptatum sit delenit vero lobortis, duis vel erat. \n\nVeniam consectetuer, nulla magna eum feugait eu, eros accumsan vel augue accumsan, nulla dignissim. Dolore facilisi nulla, ullamcorper magna duis hendrerit feugait, dolor luptatum sed ut quis, ex. \n\nZzril tincidunt sit at, facilisi nostrud at diam ea, aliquip consequat luptatum veniam facilisi, zzril wisi duis lobortis iriure, sed vel accumsan consequat.",
+      "business" : "74d812c1-f5cb-4d5d-9095-51f96e491754",
+      "picture" : [ {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder.png"
+      } ],
+      "thumb" : [ {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder-thumb.png"
+      } ],
+      "title" : "DOLOR NIBH AD QUIS VEL."
+    },
+    "247b9d2f-5663-4073-b373-0c63146aad11" : {
+      "body" : "Te eu dolore ullamcorper nulla aliquip, vero dignissim facilisis lorem diam, te ullamcorper esse tation. Diam, te vulputate vulputate aliquip lorem, amet magna hendrerit qui in, dolor hendrerit consequat. \n\nVero ad, vero nulla facilisi minim eu, molestie ea sit dolor zzril, facilisis autem. Dolore iriure in, tation lorem in sed diam, velit enim ex ex facilisi, molestie. \n\nNostrud praesent laoreet ut, tation elit commodo dolore odio, esse et diam accumsan dolor, ut nostrud dolore blandit vero, quis zzril dolor blandit quis, molestie vero esse amet. Et, euismod ut ut hendrerit ipsum, eum.",
+      "business" : "74d812c1-f5cb-4d5d-9095-51f96e491754",
+      "picture" : [ {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder.png"
+      } ],
+      "thumb" : [ {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder-thumb.png"
+      } ],
+      "title" : "DIGNISSIM UT COMMODO WISI."
+    }
+  },
+  "products" : {
+    "03e1b1d1-c92e-4ccf-9161-4c9f20f11ea5" : {
+      "body" : "Ut vulputate te dolor ipsum nonummy, dolore enim accumsan veniam duis, nibh veniam at nulla. Adipiscing, dolore dolor lobortis et qui, consequat ea tation iusto qui, tation velit minim. \n\nDelenit elit, feugait nibh illum diam vulputate, feugiat erat et velit veniam, tation ea. Consequat magna et, iriure delenit zzril vel ea, eum amet ut autem consequat, tincidunt. \n\nAliquam adipiscing vero dolore, magna ut vel et veniam, iriure odio ullamcorper erat vulputate, facilisi dolore hendrerit in accumsan, accumsan illum iriure quis nibh, nisl vulputate nostrud enim. Commodo, lorem luptatum erat ut elit, blandit dolor eu adipiscing ipsum, dolor.",
+      "business" : "0fd87af0-80f7-45ed-9f97-0f84966fef38",
+      "pictures" : [ {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder.png"
+      }, {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder.png"
+      }, {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder.png"
+      }, {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder.png"
+      }, {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder.png"
+      }, {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder.png"
+      } ],
+      "price" : "599.00",
+      "thumb" : [ {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder.png"
+      } ],
+      "title" : "WISI CONSEQUAT",
+      "url" : "https://demo.morethanthemes.com/retailplus/commerce-default/node/9"
+    },
+    "06d29eb1-29a4-490c-a23a-a92e82773b37" : {
+      "body" : "Ut vulputate te dolor ipsum nonummy, dolore enim accumsan veniam duis, nibh veniam at nulla. Adipiscing, dolore dolor lobortis et qui, consequat ea tation iusto qui, tation velit minim. \n\nDelenit elit, feugait nibh illum diam vulputate, feugiat erat et velit veniam, tation ea. Consequat magna et, iriure delenit zzril vel ea, eum amet ut autem consequat, tincidunt. \n\nAliquam adipiscing vero dolore, magna ut vel et veniam, iriure odio ullamcorper erat vulputate, facilisi dolore hendrerit in accumsan, accumsan illum iriure quis nibh, nisl vulputate nostrud enim. Commodo, lorem luptatum erat ut elit, blandit dolor eu adipiscing ipsum, dolor.",
+      "business" : "6dddcf61-383c-47cd-a313-8f5a454d28a2",
+      "pictures" : [ {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder.png"
+      }, {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder.png"
+      }, {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder.png"
+      }, {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder.png"
+      }, {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder.png"
+      }, {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder.png"
+      } ],
+      "price" : "599.00",
+      "thumb" : [ {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder.png"
+      } ],
+      "title" : "WISI CONSEQUAT",
+      "url" : "https://demo.morethanthemes.com/retailplus/commerce-default/node/9"
+    },
+    "17742623-33cd-4c72-897e-cc270cfd2da8" : {
+      "body" : "Erat consequat blandit enim lobortis erat, eu vel sit elit diam, consequat nibh nibh adipiscing. Sed, te in odio ex esse, molestie zzril aliquam nisl laoreet, esse illum facilisi. \n\nTe lorem, consequat ad facilisis erat elit, et dolore nostrud sit aliquip, consequat nisl. Exerci feugiat in, odio iusto tation ullamcorper eum, vel lorem commodo nonummy volutpat, vero. \n\nVero vel feugiat commodo, euismod nonummy et suscipit sit, consequat ex illum consequat dignissim, esse feugiat tation eu laoreet, dolor te laoreet volutpat feugait, ut elit.",
+      "business" : "98472667-a72a-4b10-a28f-62c569f7bb7e",
+      "pictures" : [ {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder.png"
+      }, {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder.png"
+      }, {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder.png"
+      }, {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder.png"
+      }, {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder.png"
+      }, {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder.png"
+      } ],
+      "price" : "14.00",
+      "thumb" : [ {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder-thumb.png"
+      } ],
+      "title" : "UT CONSECTETUER",
+      "url" : "https://demo.morethanthemes.com/retailplus/commerce-default/node/12"
+    }
+  },
+  "services" : {
+    "00159415-8cb7-4ac4-a8a9-529273afd335" : {
+      "body" : "Te eu dolore ullamcorper nulla aliquip, vero dignissim facilisis lorem diam, te ullamcorper esse tation. Diam, te vulputate vulputate aliquip lorem, amet magna hendrerit qui in, dolor hendrerit consequat. \n\nVero ad, vero nulla facilisi minim eu, molestie ea sit dolor zzril, facilisis autem. Dolore iriure in, tation lorem in sed diam, velit enim ex ex facilisi, molestie. \n\nNostrud praesent laoreet ut, tation elit commodo dolore odio, esse et diam accumsan dolor, ut nostrud dolore blandit vero, quis zzril dolor blandit quis, molestie vero esse amet. Et, euismod ut ut hendrerit ipsum, eum.",
+      "business" : "160b085a-4d2d-4d81-ac7c-791e0117220e",
+      "pictures" : [ {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder.png"
+      }, {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder.png"
+      }, {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder.png"
+      }, {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder.png"
+      }, {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/assets/_release/assets/placeholder.png"
+      } ],
+      "thumb" : [ {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder-thumb.png"
+      } ],
+      "title" : "DIGNISSIM",
+      "url" : "https://demo.morethanthemes.com/corporateplus/default/node/10"
+    },
+    "1f75ba84-717e-4d0f-a0ca-d92ca37e4f79" : {
+      "body" : "Te eu dolore ullamcorper nulla aliquip, vero dignissim facilisis lorem diam, te ullamcorper esse tation. Diam, te vulputate vulputate aliquip lorem, amet magna hendrerit qui in, dolor hendrerit consequat. \n\nVero ad, vero nulla facilisi minim eu, molestie ea sit dolor zzril, facilisis autem. Dolore iriure in, tation lorem in sed diam, velit enim ex ex facilisi, molestie. \n\nNostrud praesent laoreet ut, tation elit commodo dolore odio, esse et diam accumsan dolor, ut nostrud dolore blandit vero, quis zzril dolor blandit quis, molestie vero esse amet. Et, euismod ut ut hendrerit ipsum, eum.",
+      "business" : "deb0c47a-e608-47c3-83db-e4f9d463c880",
+      "pictures" : [ {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder.png"
+      }, {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder.png"
+      }, {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder.png"
+      }, {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder.png"
+      }, {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/assets/_release/assets/placeholder.png"
+      }, {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder.png"
+      } ],
+      "thumb" : [ {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder-thumb.png"
+      } ],
+      "title" : "DIGNISSIM",
+      "url" : "https://demo.morethanthemes.com/corporateplus/default/node/10"
+    },
+    "2091c8fe-0778-46ba-894d-66d39293ab74" : {
+      "body" : "In iusto et ullamcorper dolore dolor, duis dolor feugiat dignissim ad, qui illum facilisi tation. Velit, wisi ullamcorper tation dignissim dolore, luptatum sit delenit vero lobortis, duis vel erat. \n\nVeniam consectetuer, nulla magna eum feugait eu, eros accumsan vel augue accumsan, nulla dignissim. Dolore facilisi nulla, ullamcorper magna duis hendrerit feugait, dolor luptatum sed ut quis, ex. \n\nZzril tincidunt sit at, facilisi nostrud at diam ea, aliquip consequat luptatum veniam facilisi, zzril wisi duis lobortis iriure, sed vel accumsan consequat.",
+      "business" : "deb0c47a-e608-47c3-83db-e4f9d463c880",
+      "pictures" : [ {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder.png"
+      }, {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder.png"
+      }, {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder.png"
+      }, {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder.png"
+      }, {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder.png"
+      }, {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder.png"
+      } ],
+      "thumb" : [ {
+        "inProgress" : false,
+        "path" : "",
+        "url" : "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder-thumb.png"
+      } ],
+      "title" : "DOLOR NIBH",
+      "url" : "https://demo.morethanthemes.com/corporateplus/default/node/11"
+    }
+  }
+}

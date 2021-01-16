@@ -1,0 +1,14 @@
+{
+  "name": "business-directory",
+  "app_id": "e1f02edd",
+  "type": "ionic1",
+  "integrations": {
+    "cordova": {}
+  },
+  "watchPatterns": [
+    "scss/**/*",
+    "www/**/*",
+    "!www/lib/**/*",
+    "!www/**/*.map"
+  ]
+}

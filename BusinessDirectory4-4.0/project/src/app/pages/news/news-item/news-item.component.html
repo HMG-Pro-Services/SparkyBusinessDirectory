@@ -1,0 +1,16 @@
+<ion-header>
+    <ion-toolbar color="primary">
+        <ion-buttons slot="start">
+            <ion-back-button defaultHref="/home"></ion-back-button>
+        </ion-buttons>
+        <ion-title>News</ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-img *ngIf="!!post.picture" src="{{post.picture[0].url}}"></ion-img>
+    <div class="ion-padding">
+        <h2>{{post.title}}</h2>
+        <p>{{post.body}}</p>
+    </div>
+</ion-content>

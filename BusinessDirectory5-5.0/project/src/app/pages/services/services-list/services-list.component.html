@@ -1,0 +1,16 @@
+<ion-header>
+    <ion-toolbar color="primary">
+        <ion-buttons slot="start">
+            <ion-back-button defaultHref="/home"></ion-back-button>
+        </ion-buttons>
+        <ion-title>Services</ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <app-tiles
+        *ngIf="!!services"
+        [items]="services"
+        (itemTapped)="itemTapped($event)"
+    ></app-tiles>
+</ion-content>

@@ -1,0 +1,22 @@
+page-reviews {
+	rating {
+		display: block;
+		text-align: right;
+
+		.rating {
+			margin: 0;
+
+			li {
+				padding: 5px !important;
+			}
+		}
+	}
+
+	.review-date {
+		margin: 0 !important;
+		position: fixed;
+		font-size: 13px;
+		top: 15px;
+		right: 20px;
+	}
+}

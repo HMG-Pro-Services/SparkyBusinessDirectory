@@ -1,0 +1,11 @@
+<h1 mat-dialog-title>New item</h1>
+<div mat-dialog-content>
+	<mat-form-field>
+		<input matInput placeholder="Name" [(ngModel)]="itemName">
+	</mat-form-field>
+</div>
+
+<div mat-dialog-actions>
+	<button mat-button (click)="cancel()">CANCEL</button>
+	<button mat-raised-button (click)="create()" [disabled]="!itemName" color="primary">CREATE</button>
+</div>

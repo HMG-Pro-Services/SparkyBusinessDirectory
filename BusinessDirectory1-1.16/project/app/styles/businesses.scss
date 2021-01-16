@@ -1,0 +1,40 @@
+/*
+ * Businesses screen
+ */
+.businesses .distance {
+	position: absolute;
+	right: 10px;
+	top: 7px;
+	font-size: 12px;
+}
+
+/* wide-as-needed */
+.businesses .categories-filter {
+	overflow: scroll;
+	white-space: nowrap;
+}
+
+.businesses .filter-button {
+	padding: 5px;
+	border: 0px;
+}
+
+.businesses .filter-button.active-filter-button {
+	font-style: italic;
+	font-weight: 700;
+}
+
+.rating-container {
+	margin-top: 5px;
+	margin-bottom: 5px;
+
+	ul.rating {
+		display: inline;
+
+		li {
+			display: inline;
+			font-size: 20px;
+			padding-left: 3px;
+		}
+	}
+}

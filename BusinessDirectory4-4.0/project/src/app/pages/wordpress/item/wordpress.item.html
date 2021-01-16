@@ -1,0 +1,24 @@
+<ion-header>
+    <ion-toolbar color="primary">
+        <ion-buttons slot="start">
+            <ion-back-button defaultHref="/home"></ion-back-button>
+        </ion-buttons>
+        <ion-title>
+            {{post?.title}}
+        </ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ng-container *ngIf="post">
+        <div class="ion-text-center">
+            <img *ngIf="!!post.image" src="{{post.image}}" />
+        </div>
+        <div class="ion-padding">
+            <h2>{{post.title}}</h2>
+            <p [innerHTML]="post.content"></p>
+            <p><strong>{{post.author}}</strong> - {{post.date}}</p>
+            <p><i>[{{post.tags.join(', ')}}]</i></p>
+        </div>
+    </ng-container>
+</ion-content>

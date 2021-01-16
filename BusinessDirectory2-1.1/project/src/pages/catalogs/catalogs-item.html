@@ -1,0 +1,36 @@
+<ion-header>
+	<ion-navbar>
+		<ion-title>Catalog</ion-title>
+
+		<ion-buttons end>
+			<button ion-button icon-only (click)="openPdf()" *ngIf="catalog.pdf">
+				<ion-icon name=document></ion-icon>
+			</button>
+		</ion-buttons>
+	</ion-navbar>
+</ion-header>
+
+<ion-content>
+	<div>
+		<ion-slides pager>
+			<ion-slide *ngFor="let picture of catalog.pictures">
+				<img [src]="picture.url">
+			</ion-slide>
+		</ion-slides>
+	</div>
+	<div padding>
+		<h2>{{catalog.title}}</h2>
+		<div text-right="">{{catalog.price}}</div>
+		<p>{{catalog.body}}</p>
+	</div>
+
+	<div padding-horizontal>
+		<button ion-button icon-left="" color="primary" block (click)="open()" *ngIf="catalog.url">
+			<ion-icon name="link"></ion-icon> View online
+		</button>
+
+		<button ion-button icon-left="" color="primary" block (click)="openPdf()" *ngIf="catalog.pdf">
+			<ion-icon name="document"></ion-icon> Download PDF
+		</button>
+	</div>
+</ion-content>

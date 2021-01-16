@@ -1,0 +1,43 @@
+<ion-header>
+	<ion-navbar>
+		<ion-title>{{business.title}}</ion-title>
+	</ion-navbar>
+</ion-header>
+
+<ion-content>
+	<div padding>
+		<h1>{{business.title}}</h1>
+		<p>{{business.description}}</p>
+	</div>
+
+	<ion-list>
+		<ion-list-header>Open hours</ion-list-header>
+
+		<ion-item *ngFor="let day of days">
+			<h2>{{day.name}}</h2>
+			<!--<p><span *ngFor="let time of day.times">{{time}}</span></p>-->
+			<p>{{day.times.join(' | ')}}</p>
+		</ion-item>
+	</ion-list>
+
+	<ion-list>
+		<ion-list-header>Contact</ion-list-header>
+
+		<button ion-item detail-none (click)="call(business.phoneNumber)">
+			<ion-icon name="call" item-end></ion-icon>
+			Call us
+		</button>
+		<button ion-item detail-none (click)="sendEmail(business.email)">
+			<ion-icon name="mail" item-end></ion-icon>
+			Send us email
+		</button>
+		<button ion-item detail-none (click)="getDirections(business.officeLocation)">
+			<ion-icon name="map" item-end></ion-icon>
+			Find us / Get directions
+		</button>
+		<button ion-item detail-none (click)="openUrl(business.facebookPage)">
+			<ion-icon name="logo-facebook" item-end></ion-icon>
+			Facebook
+		</button>
+	</ion-list>
+</ion-content>

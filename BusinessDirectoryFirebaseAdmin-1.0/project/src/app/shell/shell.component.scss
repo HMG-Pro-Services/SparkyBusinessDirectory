@@ -1,0 +1,42 @@
+@import '../vars';
+
+mat-sidenav-container {
+	height: 100%;
+}
+
+.app-content mat-card {
+	margin: 20px;
+}
+
+.app-sidenav {
+	margin-top: 64px;
+	min-width: 250px;
+	width: 250px;
+	.active {
+		background-color: mat-color($primary);
+		color: white;
+	}
+	h3 {
+		background-color: mat-color($background, 100);
+		font-family: sans-serif;
+		font-weight: 600;
+		font-size: medium;
+	}
+	
+	mat-nav-list {
+		padding-top: 0px;
+	}
+}
+
+.app-action {
+	display: inline-block;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+}
+
+mat-sidenav {
+	[mat-list-icon] {
+		padding: 0 !important;
+	}
+}

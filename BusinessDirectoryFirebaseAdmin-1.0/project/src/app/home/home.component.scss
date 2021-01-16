@@ -1,0 +1,25 @@
+@import "../vars";
+
+:host {
+	display: block;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+
+    mat-card {
+        height: 140px;
+        width: 140px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center ;
+        align-items: center;
+        text-align: center;
+        cursor: pointer;
+    }
+}
+
+.bd-title {
+	font-size: 26px;
+}

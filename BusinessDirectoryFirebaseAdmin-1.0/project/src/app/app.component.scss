@@ -1,0 +1,70 @@
+@import "theme";
+
+// NOTE: Theming is currently experimental and not yet publically released!
+body {
+	margin: 0;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+}
+
+.wfw-warn {
+	color: mat-color($warn);
+	font-size: small;
+}
+
+.wfw-accent {
+	color: mat-color($accent);
+	font-size: small;
+}
+
+/*
+ * Make the inner part of the form scroll (only)
+ * Lock the height of all the parent elements
+ */
+mat-sidenav-content .app-content,
+mat-sidenav-content home,
+mat-sidenav-content .as-form{
+	position: relative;
+	height: 100%;
+}
+
+.as-form {
+	display: flex;
+	flex-direction: column;
+}
+
+.as-form-header {
+	flex: 0 0 auto;
+}
+
+.as-form-header::before {
+	display: block;
+	content: '';
+	height: 64px;
+}
+
+.as-form-scroll {
+	flex: 1 1 auto;
+	overflow-y: auto;
+	position: relative;
+}
+.mat-nav-list {
+	.mat-list-item.active:focus,
+	.mat-list-item.active:hover {
+	background-color: #2196f3;
+	color: white;
+	}
+
+	.mat-icon.mat-list-icon.material-icons {
+		width: 20px;
+		height: 20px;
+		font-size: 20px;
+	}
+	.mat-list-text {
+		font-size: 14px;
+	}
+}

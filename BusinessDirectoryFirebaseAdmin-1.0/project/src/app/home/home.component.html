@@ -1,0 +1,42 @@
+<div class="as-form">
+	<div class="as-form-header">
+		<mat-toolbar>
+			<mat-toolbar-row>
+	    <!-- <h1>Home page</h1> -->
+				<span class="bd-title">Home page</span>
+				<span class="spacer"></span>
+			</mat-toolbar-row>
+			<mat-toolbar-row></mat-toolbar-row>
+		</mat-toolbar>
+  </div>
+
+
+	<div class="as-form-scroll">
+		<div class="cards-container">
+			<mat-card [routerLink]="['./manager/products']">
+				<mat-icon>shopping_cart</mat-icon>
+				Products
+			</mat-card>
+			<mat-card [routerLink]="['./manager/categories']">
+				<mat-icon>category</mat-icon>
+				Categories
+			</mat-card>
+			<mat-card [routerLink]="['./manager/businesses']">
+				<mat-icon>business</mat-icon>
+				Businesses
+			</mat-card>
+			<mat-card [routerLink]="['./manager/catalogs']">
+				<mat-icon>list</mat-icon>
+				Catalogs
+			</mat-card>
+			<mat-card [routerLink]="['./manager/news']">
+				<mat-icon>message</mat-icon>
+				News
+			</mat-card>
+			<mat-card [routerLink]="['./manager/services']">
+				<mat-icon>room_service</mat-icon>
+				Services
+			</mat-card>
+		</div>
+	</div>
+</div>

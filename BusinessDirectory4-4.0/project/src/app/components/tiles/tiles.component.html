@@ -1,0 +1,12 @@
+<ion-row *ngFor="let group of itemGroups">
+    <ion-col col-6 *ngFor="let item of group">
+        <ion-card class="ion-no-margin" (click)="itemClicked(item)">
+            <ion-card-header>{{item.title}}</ion-card-header>
+            <img src="{{item.thumb[0].url}}">
+            <ion-item>
+                <span *ngIf="footerField">{{item[footerField]}}</span>
+                <ion-text *ngIf="!footerField">Read more</ion-text>
+            </ion-item>
+        </ion-card>
+    </ion-col>
+</ion-row>

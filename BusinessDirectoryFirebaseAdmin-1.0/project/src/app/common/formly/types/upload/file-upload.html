@@ -1,0 +1,73 @@
+<!-- <div *ngFor="let picture of pictures; let i = index;">
+	<div class="image-preview" *ngIf="picture?.url && isPreviewable(picture?.url)">
+		<img src="{{picture.url}}">
+	</div>
+	<div class="input-group">
+		<input class="form-control" [value]="picture?.url" placeholder="{{to.placeholder}}" disabled>
+
+		<span class="input-group-btn">
+		<button class="btn btn-secondary" type="button" (click)="remove(picture)" [disabled]="!picture?.url"><mat-icon>delete</mat-icon></button>
+	</span>
+		<span class="input-group-btn">
+		<button class="btn btn-secondary" type="button" (click)="upload(i)">
+				<mat-spinner [hidden]="!picture?.inProgress"></mat-spinner>
+				<span>{{to.buttonLabel}}</span>
+		</button>
+	</span>
+		<input #fileInput type="file" style="display: none;" (change)="fileChange($event, picture)">
+	</div>
+	<a class="preview-link" *ngIf="picture?.url" href="{{picture.url}}" target="_blank">{{getActionLabel(picture.url)}}</a>
+</div> -->
+
+<div class="cards-container">
+	<div class="img-card" *ngFor="let picture of pictures; let i = index;"
+	 [ngStyle]="{'width': to.width ? to.width : '150px', 'height': to.height ? to.height : '150px'}">
+		<div class="img-card-content">
+			<button
+				(click)="upload(i)"
+				class="btn image-upload-area"
+				[ngClass]="{'has-preview-image':picture.url && isPreviewable(picture.url)}"
+				type="button"
+
+				[disabled]="!to.disabled">
+				<div class="image-preview-card"
+					[ngStyle]="{'background-image':'url(' + picture.url + ')'}"
+					*ngIf="picture.url && isPreviewable(picture.url)">
+				</div>
+				<i class="material-icons cloud-upload" [hidden]="picture.inProgress">cloud_upload </i>
+				<span class="spinner-wrapper">
+					<mat-spinner [hidden]="!picture.inProgress" class="spinner" [diameter]="36"></mat-spinner>
+				</span>
+			</button>
+			<input #fileInput
+				type="file"
+				class="d-none"
+				(change)="fileChange($event, picture)"
+				[attr.accept]="!!to.filetype ? to.filetype : null">
+			<div class="toolbar">
+				<a *ngIf="picture.url && isPreviewable(picture.url)"
+					mat-icon-button
+					color="primary"
+					class="material-icons"
+					[href]="picture.url"
+					target="_blank">
+					<i class="material-icons image">image</i>
+				</a>
+				<a *ngIf="picture.url && !isPreviewable(picture.url)"
+					mat-icon-button
+					color="primary"
+					class="material-icons"
+					[href]="picture.url"
+					download>
+					<i class="material-icons cloud-download">cloud_download</i>
+				</a>
+				<button mat-icon-button type="button" color="warn"
+					[hidden]="!picture.url"
+					(click)="remove(picture)">
+					<mat-icon aria-label="remove">delete</mat-icon>
+					</button>
+			</div>
+
+		</div>
+	</div>
+</div>

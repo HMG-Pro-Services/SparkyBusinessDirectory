@@ -1,0 +1,33 @@
+<ion-header>
+    <ion-toolbar color="primary">
+        <ion-buttons slot="start">
+            <ion-back-button defaultHref="/home"></ion-back-button>
+        </ion-buttons>
+
+        <ion-title>Service</ion-title>
+
+        <ion-buttons slot="end">
+            <ion-button (click)="open()">
+                <ion-icon slot="icon-only" name="link"></ion-icon>
+            </ion-button>
+        </ion-buttons>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-slides pager>
+        <ion-slide *ngFor="let picture of service.pictures">
+            <img [src]="picture.url">
+        </ion-slide>
+    </ion-slides>
+
+    <div class="ion-padding">
+        <h2>{{service.title}}</h2>
+        <p>{{service.body}}</p>
+    </div>
+
+    <ion-button class="item-button ion-padding-horizontal" color="primary" expand="block" (click)="open()">
+        <ion-icon name="link" slot="icon-only"></ion-icon>
+        Read more
+    </ion-button>
+</ion-content>

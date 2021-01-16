@@ -1,0 +1,41 @@
+<ion-header>
+    <ion-toolbar color="primary">
+        <ion-title>Filter</ion-title>
+
+        <ion-buttons slot="end">
+            <ion-button (click)="dismiss()">Cancel</ion-button>
+        </ion-buttons>
+
+        <ion-buttons slot="end">
+            <ion-button (click)="applyFilters()" strong>Done</ion-button>
+        </ion-buttons>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-list>
+        <ion-radio-group [(ngModel)]="orderBy">
+            <ion-list-header><ion-label>Order by</ion-label></ion-list-header>
+            <ion-item detail="false">
+                <ion-label>Name</ion-label>
+                <ion-radio value="title"></ion-radio>
+            </ion-item>
+
+            <ion-item detail="false">
+                <ion-label>Distance</ion-label>
+                <ion-radio value="distance"></ion-radio>
+            </ion-item>
+        </ion-radio-group>
+    </ion-list>
+
+    <ion-list>
+        <ion-radio-group [(ngModel)]="selectedCategory">
+            <ion-list-header><ion-label>Categories</ion-label></ion-list-header>
+
+            <ion-item detail="false" *ngFor="let category of categories">
+                <ion-label>{{ category.title }}</ion-label>
+                <ion-radio value="{{ category.$key }}"></ion-radio>
+            </ion-item>
+        </ion-radio-group>
+    </ion-list>
+</ion-content>

@@ -1,0 +1,86 @@
+{
+  "name": "business-directory",
+  "version": "1.16.0",
+  "private": true,
+  "dependencies": {
+    "@ionic/cloud": "^0.8.2",
+    "backendless": "^4.0.10"
+  },
+  "devDependencies": {
+    "@ionic/cli-plugin-cordova": "1.5.0",
+    "@ionic/cli-plugin-ionic1": "2.1.0",
+    "cordova": "7.1.0",
+    "elementtree": "0.1.6",
+    "glob": "~4.3.5",
+    "grunt": "~1.0.1",
+    "grunt-autoprefixer": "~3.0.4",
+    "grunt-concurrent": "1.0.0",
+    "grunt-contrib-clean": "~1.1.0",
+    "grunt-contrib-concat": "~0.5.0",
+    "grunt-contrib-connect": "~1.0.2",
+    "grunt-contrib-copy": "~1.0.0",
+    "grunt-contrib-cssmin": "~0.11.0",
+    "grunt-contrib-htmlmin": "~2.4.0",
+    "grunt-contrib-jshint": "~0.11.0",
+    "grunt-contrib-sass": "^0.9.2",
+    "grunt-contrib-uglify": "~3.1.0",
+    "grunt-contrib-watch": "~1.0.0",
+    "grunt-include-source": "^1.1.0",
+    "grunt-karma": "~1.0.0",
+    "grunt-newer": "~1.1.0",
+    "grunt-ng-annotate": "~2.0.2",
+    "grunt-ng-constant": "^2.0.1",
+    "grunt-usemin": "~3.0.0",
+    "grunt-wiredep": "^3.0.0",
+    "ionic": "3.4.0",
+    "jshint-stylish": "~1.0.0",
+    "karma": "^0.13.0",
+    "karma-chai": "~0.1.0",
+    "karma-chrome-launcher": "~0.1.7",
+    "karma-coverage": "~0.2.7",
+    "karma-mocha": "~0.1.10",
+    "karma-phantomjs-launcher": "~0.1.4",
+    "load-grunt-tasks": "~3.1.0",
+    "lodash": "~3.1.0",
+    "mkdirp": "~0.5.0",
+    "ncp": "~1.0.1",
+    "orchestrator": "~0.3.7",
+    "plist": "1.1.0",
+    "ripple-emulator": "~0.9.24",
+    "time-grunt": "~1.0.0",
+    "win-spawn": "^2.0.0"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "grunt test",
+    "postinstall": "npm run install:bower",
+    "install:bower": "bower install",
+    "dev": "grunt serve",
+    "add:ios": "cordova platform add ios",
+    "add:android": "cordova platform add android",
+    "build": "cordova build",
+    "emulate:ios": "cordova emulate ios",
+    "emulate:android": "cordova emulate android"
+  },
+  "cordovaPlatforms": [],
+  "cordovaPlugins": [
+    "cordova-plugin-device",
+    "cordova-plugin-console",
+    "cordova-plugin-whitelist",
+    "cordova-plugin-transport-security",
+    "cordova-plugin-network-information",
+    "cordova-plugin-inappbrowser",
+    "cordova-plugin-geolocation",
+    "ionic-plugin-keyboard",
+    "cordova-plugin-email",
+    "cordova-plugin-x-socialsharing",
+    {
+      "variables": {
+        "SENDER_ID": "228071472080"
+      },
+      "locator": "phonegap-plugin-push"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+<ion-header>
+    <ion-toolbar color="primary">
+        <ion-buttons slot="start">
+            <ion-menu-button></ion-menu-button>
+        </ion-buttons>
+
+        <ion-title>Favorites</ion-title>
+
+        <ion-buttons slot="end">
+            <ion-button class="clear-filter" (click)="clearFilter()" [hidden]="!isFilterDirty">
+                <ion-icon name="close" slot="icon-only"></ion-icon>
+            </ion-button>
+            <ion-button (click)="presentFilter()">
+                <ion-icon name="options" slot="icon-only"></ion-icon>
+            </ion-button>
+        </ion-buttons>
+    </ion-toolbar>
+
+    <ion-toolbar color="primary">
+        <ion-searchbar [(ngModel)]="queryText" (ionChange)="updateList()" placeholder="Search"></ion-searchbar>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-segment value="{{selectedCategory}}" (ionChange)="selectCategory($event)" scrollable mode="md" class="horizontal-list">
+        <ion-segment-button
+            mode="md"
+            class="filter-item"
+            *ngFor="let category of categories"
+            value="{{category.$key}}"
+        >
+            {{category.title}}
+        </ion-segment-button>
+    </ion-segment>
+
+    <ion-list [hidden]="businesses.length === 0">
+        <ion-item button detail="false" (click)="goToBusinessDetail(business)" *ngFor="let business of businesses">
+            <ion-thumbnail slot="start">
+                <img [src]="business?.logo[0].url">
+            </ion-thumbnail>
+            <div class="item-description ">
+                <div class="ion-text-end">
+                    <ion-note>{{business.distance | distance}}</ion-note>
+                </div>
+                <ion-label>
+                    <h2>{{business.title}}</h2>
+                    <h3>{{business.categoryName}}</h3>
+                </ion-label>
+                <ion-note>
+                    {{business.description | truncate: 130}}
+                </ion-note>
+            </div>
+        </ion-item>
+    </ion-list>
+
+    <ion-list-header [hidden]="businesses.length > 0">
+        <ion-label>No businesses found</ion-label>
+    </ion-list-header>
+</ion-content>

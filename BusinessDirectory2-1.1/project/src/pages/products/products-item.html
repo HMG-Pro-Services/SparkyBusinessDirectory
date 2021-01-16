@@ -1,0 +1,30 @@
+<ion-header>
+	<ion-navbar>
+		<ion-title>Product</ion-title>
+
+		<ion-buttons end>
+			<button ion-button icon-only (click)="buyNow()">
+				<ion-icon name=cart></ion-icon>
+			</button>
+		</ion-buttons>
+	</ion-navbar>
+</ion-header>
+
+<ion-content>
+	<div>
+		<ion-slides pager>
+			<ion-slide *ngFor="let picture of product.pictures">
+				<img [src]="picture.url">
+			</ion-slide>
+		</ion-slides>
+	</div>
+	<div padding>
+		<h2>{{product.title}}</h2>
+		<div text-right="">{{product.price}}</div>
+		<p>{{product.body}}</p>
+	</div>
+
+	<div padding-horizontal>
+		<button ion-button icon-left="" color="primary" block (click)="buyNow()"><ion-icon name="cart"></ion-icon> Buy now</button>
+	</div>
+</ion-content>

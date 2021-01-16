@@ -1,0 +1,27 @@
+:host {
+	mat-card-title {
+		text-align: center;
+	}
+	.label-hint {
+		font-size: 14px;
+		text-align: center;
+		margin: 0;
+	}
+	.flat-link {
+		padding: 0 !important;
+		font-size: 0.8rem;
+		font-weight: bold;
+		color: #2196f3;
+	}
+	.divider {
+		margin-top: 1rem;
+	}
+	.forgot-password {
+		display: flex;
+		justify-content: flex-end;
+		margin-bottom: 0 !important;
+	}
+	.footer {
+		margin-top:1.5rem;
+	}
+}

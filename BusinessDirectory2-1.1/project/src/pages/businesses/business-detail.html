@@ -1,0 +1,81 @@
+<ion-header>
+	<ion-navbar>
+		<ion-title>{{business.title}}</ion-title>
+
+		<ion-buttons end>
+			<button ion-button icon-only (click)="service.toggleFavorites(business.$key)">
+				<ion-icon name="star-outline" *ngIf="!service.isInFavorites(business.$key)"></ion-icon>
+				<ion-icon name="star" *ngIf="service.isInFavorites(business.$key)"></ion-icon>
+			</button>
+		</ion-buttons>
+	</ion-navbar>
+</ion-header>
+
+<ion-content>
+	<ion-slides pager style="height: 250px;">
+		<ion-slide *ngFor="let picture of business.pictures">
+			<img [src]="picture.url" alt="business.title">
+			<div class="business-info">
+				<h1>{{business.title}}</h1>
+				<rating [ngModel]="business.rating?.value" readOnly="true" nullable="true"></rating>
+				<p>{{business.categoryName}}</p>
+			</div>
+		</ion-slide>
+	</ion-slides>
+
+	<ion-list padding-top text-wrap class="actions">
+		<button ion-item (click)="goToContactUs(business)">
+			<ion-icon name="time" item-start></ion-icon>
+			We are {{ isOpen ? 'open' : 'closed' }}
+		</button>
+
+		<button ion-item (click)="getDirections(business.officeLocation)">
+			<ion-icon name="navigate" item-start></ion-icon>
+			You are {{business.distance | distance}} away. <br>Get directions
+		</button>
+
+		<button ion-item (click)="goToReviews(business)">
+			<ion-icon name="chatbubbles" item-start></ion-icon>
+			Reviews / Add review
+		</button>
+
+		<button ion-item (click)="service.toggleFavorites(business.$key)" *ngIf="!service.isInFavorites(business.$key)" detail-none>
+			<ion-icon name="star-outline" item-start></ion-icon>
+			Add to favorites
+		</button>
+
+		<button ion-item (click)="service.toggleFavorites(business.$key)" *ngIf="service.isInFavorites(business.$key)" detail-none>
+			<ion-icon name="star" item-start></ion-icon>
+			Remove from favorites
+		</button>
+
+	</ion-list>
+
+	<ion-row class="tiles" *ngFor="let tilePair of tiles">
+		<ion-col *ngFor="let tile of tilePair">
+			<ion-card class="tile" (click)="navigateTo(tile)">
+				<ion-card-content>
+					<ion-item>
+						<h1>
+							<ion-icon [name]="tile.icon"></ion-icon>
+						</h1>
+						<h2>{{tile.title}}</h2>
+					</ion-item>
+				</ion-card-content>
+			</ion-card>
+		</ion-col>
+	</ion-row>
+
+	<ion-list>
+		<button ion-item (click)="navigateToWordpress()">
+			<ion-icon name="logo-wordpress" item-start></ion-icon>
+			Wordpress
+		</button>
+
+		<button ion-item (click)="navigateToDrupal()">
+			<ion-icon name="help-buoy" item-start></ion-icon>
+			Drupal
+		</button>
+
+	</ion-list>
+</ion-content>

@@ -1,0 +1,15 @@
+ion-card-header {
+  color: black;
+}
+
+ion-row > ion-col:nth-child(2n+1) {
+  padding: 10px 10px 0 10px;
+}
+
+ion-row > ion-col:nth-child(1n+2) {
+  padding: 10px 10px 0 0;
+}
+
+ion-row:last-child {
+  padding-bottom: 10px;
+}
